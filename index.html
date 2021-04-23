@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuaibs Contact Form</title>
+    <link rel="stylesheet" href="neum.css" />
+  </head>
+
+  <body>
+    <form
+      action="https://formspree.io/f/mayanvyd"
+      id="contact-form"
+      method="POST"
+    >
+      <div>
+        <h1 class="contact-heading">Contact me</h1>
+      </div>
+
+      <div>
+        <label for="name" class="contact-info">Name</label>
+        <input
+          type="text"
+          name="name"
+          required
+          placeholder="Full name"
+          id="name"
+          class="contact-input"
+        />
+      </div>
+
+      <div>
+        <label for="email" class="contact-info">Your email</label>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="name@domaincom"
+          id="email"
+          class="contact-input"
+        />
+      </div>
+
+      <div>
+        <label for="Number" class="contact-info">Phone number</label>
+        <input
+          type="tel"
+          id="Number"
+          name="Number"
+          class="contact-input"
+          required
+          placeholder="078 629 61 63"
+        />
+      </div>
+
+      <div>
+        <label for="message" class="contact-info">Your Message</label>
+        <textarea
+          name="message"
+          class="contact-input"
+          placeholder="Type in your message"
+        ></textarea>
+      </div>
+
+      <button type="Submit" class="button">Submit</button>
+      <button type="Reset" class="button">Reset</button>
+
+      <!-- your other form fields go here -->
+    </form>
+  </body>
+</html>
